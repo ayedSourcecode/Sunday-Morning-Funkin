@@ -209,7 +209,7 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new TitleState());
 			}
 			
-			if (FlxG.Keys.justPressed.F10)
+			if (FlxG.keys.justPressed.F10)
 			{
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('scrollMenu'));
