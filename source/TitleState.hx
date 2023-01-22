@@ -573,7 +573,8 @@ class TitleState extends MusicBeatState
 		for (i in 0...textArray.length)
 		{
 			var money:Alphabet = new Alphabet(0, 0, textArray[i], true);
-			money.screenCenter(X);
+			//money.screenCenter(X);
+			money.x = 200;
 			money.y += (i * 60) + 200 + offset;
 			if(credGroup != null && textGroup != null) {
 				credGroup.add(money);
@@ -629,16 +630,16 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Mods by'], 15);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['EzraTheTigerYT']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('EzraTheTigerYT', 15);
+					addMoreText('Omar', 15);
+					addMoreText('ayedfnfmaker', 15);
 					#else
 					addMoreText('present');
 					#end
@@ -656,8 +657,8 @@ class TitleState extends MusicBeatState
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
-					ngSpr.visible = true;
+					addMoreText('Sunday Morning Funkin', -40);
+					//ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
 					deleteCoolText();
@@ -678,10 +679,10 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Sunday');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('morning');
 				// credTextShit.text += '\nNight';
 				case 16:
 					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
