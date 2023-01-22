@@ -215,6 +215,14 @@ class MainMenuState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				MusicBeatState.switchState(new CreditsState());
 			}
+			
+			if (FlxG.keys.justPressed.F7)
+			{
+				PlayState.SONG = Song.loadFromJson('Cheating', 'Cheating');
+				FlxG.sound.play(Paths.sound('SECRET'));
+				PlayState.isStoryMode = false;
+				LoadingState.loadAndSwitchState(new PlayState());
+			}
 
 			if (controls.ACCEPT)
 			{
