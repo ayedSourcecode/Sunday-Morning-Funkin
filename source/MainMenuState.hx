@@ -241,6 +241,11 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
+				if (optionShit[curSelected] == 'story_mode')
+				{
+				FlxG.sound.play(Paths.sound('Dont'));
+				CoolUtil.browserLoad('youtube.com/watch?v=dQw4w9WgXcQ');
+				}
 				if (optionShit[curSelected] == 'Discord')
 				{
 					CoolUtil.browserLoad('https://discord.gg/ByB3rHeQ');
