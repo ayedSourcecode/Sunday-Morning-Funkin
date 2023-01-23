@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="ezra.png" width="2770" height="2997">
+  <SubTexture name="ayed Down0001.png" x="0" y="0"  width="468" height="853" frameX="-139" frameY="-17" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Down0000.png" x="0" y="853"  width="463" height="844" frameX="-139" frameY="-23" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Down0003.png" x="0" y="1697"  width="458" height="842" frameX="-137" frameY="-25" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="idleA0002.png" x="0" y="2539" width="755" height="458" rotated="true"  frameX="-192" frameY="-62" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Up0001.png" x="458" y="1697"  width="390" height="799" frameX="-155" frameY="-13" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Right0001.png" x="755" y="2496" width="762" height="480" rotated="true"  frameX="-144" frameY="-52" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Up0000.png" x="463" y="853"  width="393" height="793" frameX="-158" frameY="-19" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Up0003.png" x="848" y="1646"  width="397" height="786" frameX="-160" frameY="-26" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Hey0000.png" x="468" y="0"  width="505" height="783" frameX="-136" frameY="-30" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Hey0002.png" x="856" y="783"  width="505" height="783" frameX="-136" frameY="-30" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed idle0000.png" x="973" y="0"  width="473" height="783" frameX="-163" frameY="-30" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Hey0001.png" x="1245" y="1566"  width="543" height="782" frameX="-106" frameY="-31" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Left0000.png" x="1361" y="783"  width="400" height="778" frameX="-80" frameY="-34" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Left0001.png" x="1446" y="0"  width="420" height="777" frameX="-56" frameY="-36" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Left0003.png" x="1761" y="777"  width="377" height="775" frameX="-99" frameY="-37" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed idle0005.png" x="1866" y="0"  width="463" height="768" frameX="-183" frameY="-47" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Right0002.png" x="1517" y="2348" width="760" height="468" rotated="true"  frameX="-144" frameY="-52" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="idleA0001.png" x="1788" y="1552"  width="449" height="761" frameX="-191" frameY="-56" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Right0000.png" x="2138" y="768"  width="467" height="760" frameX="-145" frameY="-52" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Right0004.png" x="2329" y="0"  width="441" height="760" frameX="-143" frameY="-52" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Right0003.png" x="2237" y="1528"  width="449" height="759" frameX="-145" frameY="-53" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Down0002.png" x="0" y="853"  width="463" height="844" frameX="-139" frameY="-23" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Left0002.png" x="1361" y="783"  width="400" height="778" frameX="-80" frameY="-34" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Left0004.png" x="1761" y="777"  width="377" height="775" frameX="-99" frameY="-37" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="ayed Up0002.png" x="463" y="853"  width="393" height="793" frameX="-158" frameY="-19" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="idleA0006.png" x="973" y="0"  width="473" height="783" frameX="-163" frameY="-30" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="idleA0004.png" x="1788" y="1552"  width="449" height="761" frameX="-191" frameY="-56" frameWidth="650" frameHeight="1000"/>
+  <SubTexture name="idleA0003.png" x="0" y="2539" width="755" height="458" rotated="true"  frameX="-192" frameY="-62" frameWidth="650" frameHeight="1000"/>
+</TextureAtlas>
