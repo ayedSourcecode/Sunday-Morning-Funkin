@@ -80,6 +80,7 @@ class StoryMenuState extends MusicBeatState
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
 		}
+	}
 
 	override function create()
 	{
