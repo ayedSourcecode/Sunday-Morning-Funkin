@@ -166,7 +166,7 @@ class MainMenuState extends MusicBeatState
 
 		super.create();
 		
-		switch(FlxG.random(3, 1))
+		switch(Flx.random(3, 1))
 		{
 			case 1:
 		char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/ezra'));//put your cords and image here
