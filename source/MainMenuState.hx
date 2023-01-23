@@ -134,7 +134,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Vs Ezra V1.5", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 86, 0, "Vs Ezra V1.5", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -169,7 +169,7 @@ class MainMenuState extends MusicBeatState
 		switch(FlxG.random.int(1, 1))
 		{
 			case 1:
-				char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/ezra'));//put your cords and image here
+				char = new FlxSprite(820, 170).loadGraphic(Paths.image('menuchar/ezra'));//put your cords and image here
 				char.frames = Paths.getSparrowAtlas('mainmenu/ezra');//here put the name of the xml
 				char.animation.addByPrefix('idleA', 'idle name', 16, true);//on 'idle normal' change it to your xml one
 				char.animation.play('idleA');//you can rename the anim however you want to
