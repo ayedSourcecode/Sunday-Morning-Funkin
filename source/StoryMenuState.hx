@@ -52,8 +52,7 @@ class StoryMenuState extends MusicBeatState
 	
 	function onCreate()
 	{
-		if (!initialized)
-		{
+		
 			/*var diamond:FlxGraphic = FlxGraphic.fromClass(GraphicTransTileDiamond);
 			diamond.persist = true;
 			diamond.destroyOnNoUse = false;
@@ -79,7 +78,6 @@ class StoryMenuState extends MusicBeatState
 
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
-		}
 	}
 
 	override function create()
