@@ -48,6 +48,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var char:FlxSprite;
 
 	override function create()
 	{
@@ -164,6 +165,20 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		super.create();
+		
+		switch(FlxG.random(3, 1))
+		{
+			case 1:
+		char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/ezra'));//put your cords and image here
+		char.frames = Paths.getSparrowAtlas('mainmenu/ezra');//here put the name of the xml
+		char.animation.addByPrefix('idleA', 'idle name', 16, true);//on 'idle normal' change it to your xml one
+		char.animation.play('idleA');//you can rename the anim however you want to
+		char.scrollFactor.set();
+		FlxG.sound.play(Paths.sound('appear'), 2);
+		char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		char.antialiasing = ClientPrefs.globalAntialiasing;
+		add(char);
+		}
 	}
 
 	#if ACHIEVEMENTS_ALLOWED
