@@ -260,20 +260,9 @@ class MainMenuState extends MusicBeatState
 				LoadingState.loadAndSwitchState(new PlayState());
 			}
 			
-			if (FlxG.mouse.justPressed(story_mode))
-			{
-				selectedSomethin = true;
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-				LoadingState.loadAndSwitchState(new StoryMenuState());
-			}
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'story_mode')
-				{
-				FlxG.sound.play(Paths.sound('Dont'));
-				CoolUtil.browserLoad('youtube.com/watch?v=dQw4w9WgXcQ');
-				}
 				if (optionShit[curSelected] == 'Discord')
 				{
 					CoolUtil.browserLoad('https://discord.gg/ByB3rHeQ');
