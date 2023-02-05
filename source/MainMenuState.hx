@@ -123,7 +123,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
 			//menuItem.screenCenter(X);
-			menuItem.x = -100;
+			menuItem.x = 100;
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -175,6 +175,7 @@ class MainMenuState extends MusicBeatState
 				char.animation.addByPrefix('idleA', 'idle', 16, true);//on 'idle normal' change it to your xml one
 				char.animation.play('idleA');//you can rename the anim however you want to
 				char.scrollFactor.set();
+				char.screenCenter(Y);
 				FlxG.sound.play(Paths.sound('appear'), 2);
 				char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
 				char.antialiasing = ClientPrefs.globalAntialiasing;
@@ -185,6 +186,7 @@ class MainMenuState extends MusicBeatState
 				char.animation.addByPrefix('idleE', 'idle', 16, true);//on 'idle normal' change it to your xml one
 				char.animation.play('idleE');//you can rename the anim however you want to
 				char.scrollFactor.set();
+				char.screenCenter(Y);
 				FlxG.sound.play(Paths.sound('appear'), 2);
 				char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
 				char.antialiasing = ClientPrefs.globalAntialiasing;
@@ -195,6 +197,7 @@ class MainMenuState extends MusicBeatState
 				char.animation.addByPrefix('idleY', 'idle', 16, true);//on 'idle normal' change it to your xml one
 				char.animation.play('idleY');//you can rename the anim however you want to
 				char.scrollFactor.set();
+				char.screenCenter(Y);
 				FlxG.sound.play(Paths.sound('appear'), 2);
 				char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
 				char.antialiasing = ClientPrefs.globalAntialiasing;
